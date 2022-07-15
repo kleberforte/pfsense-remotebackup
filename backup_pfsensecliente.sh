@@ -4,7 +4,7 @@ killall wget
 
 caminho=/home/usuario/Backups/pfSense
 cliente=NomeDoCliente
-endereco=https://urldocliente.dyndns.org
+endereco=https://cliente.dyndns.org
 usuariopfsense=admin
 senhapfsense=minhasenha
 
