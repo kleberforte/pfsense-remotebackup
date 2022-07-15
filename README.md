@@ -1,5 +1,9 @@
 # 🐧 Script Backup pfSense
 
+1. Torne o script executável `chmod +x backup_pfsensecliente.sh`
+
+2. Agora é só executá-lo manualmente `./backup_pfsensecliente.sh` ou adicioná-lo ao Cron do seu sistema. 😉
+
 ```bash
 #!/bin/bash
 
@@ -7,7 +11,7 @@ killall wget
 
 caminho=/home/usuario/Backups/pfSense
 cliente=NomeDoCliente
-endereco=https://urldocliente.dominio.com
+endereco=https://cliente.dominio.com
 usuariopfsense=admin
 senhapfsense=minhasenha
 
